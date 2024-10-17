@@ -2,12 +2,25 @@
 import Page from "../components/Page.astro";
 ---
 
-<Page title="FIXME Portfolio">
-  <h1 data-aos="fade-in" >
-    Sadie Bush's Portfolio
-  </h1>
-  <h2 data-aos="fade-up-right" > 
-  Project Menu</h2>
+<Page title="Sadie Bush's Portfolio">
+
+  <div class="container">
+    <h1 data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      Sadie Bush's Portfolio
+    </h1>
+  </div>
+
+
+<h2 data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+     ★About Me★</h2>
+  <p>Hi! I'm Sadie Bush! I am a senior here at IACS. </p>
+
+  <h2 data-aos= "fade-up"
+     data-aos-anchor-placement="top-bottom" > 
+  ☆Project Menu☆</h2>
   <nav>
     <ul>
       <li>
@@ -18,7 +31,9 @@ import Page from "../components/Page.astro";
       <!-- More projects to come soon! -->
     </ul>
   </nav>
-  <h2>About Me</h2>
-  <p>All About me...</p>
-  
+
 </Page>
+
+<div class="license">
+    Sadies Portfolio © 2024 by Sadie Bush is licensed under CC BY-NC-ND 4.0 
+  </div>
