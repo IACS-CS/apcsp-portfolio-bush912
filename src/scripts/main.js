@@ -7,7 +7,7 @@ import Particles from "particlesjs";
 console.log("Imported", Particles);
 var particles = Particles.init({
   selector: ".background",
-  color: ["magenta", "#7c4478", "pink", "orange", "teal", "#0033a0"],
+  color: ["red", "orange", "yellow", "green", "blue", "purple"],
   connectParticles: false,
   sizeVariation: 1000,
   maxParticles: 1000,
